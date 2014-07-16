@@ -1,0 +1,6 @@
+all: 
+	g++ -c Polynomial.cpp IntegerPolynomial.cpp
+	g++ -c main.cpp
+	g++ -o pa3 Polynomial.o IntegerPolynomial.o main.o 
+clean:
+	rm *.o pa3
